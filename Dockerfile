@@ -1,5 +1,8 @@
 FROM debian:buster
 
-COPY src /
+WORKDIR /root
 
-CMD /bin/bash -p
+COPY src/. /root/.
+
+RUN chmod +x setup.sh &&  ./setup.sh
+

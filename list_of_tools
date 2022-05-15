@@ -1,0 +1,8 @@
+# Web content enumeration 
+
+1-> dirb 
+2-> Dirsearch
+3-> FFUF
+4-> Gobuster
+5-> Wfuzz
+5-> BFAC
